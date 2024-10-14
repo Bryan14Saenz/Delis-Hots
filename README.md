@@ -1,2 +1,2 @@
-###Proyecto ejemplo 
-##Pagina de venta para una empresa de comida rapida.
+<h1>Proyecto de practia.</h1>
+<p>Pagina Web estatica, Sobre venta de prodcutos de comida rapida.</p>
