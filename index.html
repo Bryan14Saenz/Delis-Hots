@@ -8,12 +8,14 @@
     <!-- Tipografía -->
     <!-- Bootstrap -->
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="node_modules/bootstrap/dist/css/bootstrap.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
     <script
-      src="node_modules/bootstrap/dist/js/bootstrap.js"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
     <!-- Hoja de estilos -->
@@ -28,7 +30,7 @@
     <header class="header">
       <nav class="navbar">
         <div class="logo">
-          <img src="Img/Logo.png" alt="logo">
+          <img src="Img/Logo.png" alt="logo" />
         </div>
         <ul>
           <li><a href="#productos">Productos</a></li>
@@ -42,64 +44,71 @@
       <section class="contenedorInicio">
         <div class="container text-center">
           <h1>Delis Hots</h1>
-          <p>El mejor delicioso sabor de la ciudad al mejor precio y la mejor cocina en hot platos para toda la familia.</p>
+          <p>
+            El mejor delicioso sabor de la ciudad al mejor precio y la mejor
+            cocina en hot platos para toda la familia.
+          </p>
         </div>
 
-        <div id="carousel__Inicio" class="carousel slide" data-bs-ride="carousel">
+        <div
+          id="carousel__Inicio"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="Img/Clasico.jpg" alt="Hot dog clásico">
+              <img src="Img/Clasico.jpg" alt="Hot dog clásico" />
             </div>
             <div class="carousel-item">
-              <img src="Img/Lechugona.jpg" alt="Hot dog lechugona">
+              <img src="Img/Lechugona.jpg" alt="Hot dog lechugona" />
             </div>
             <div class="carousel-item">
-              <img src="Img/Carne.jpg" alt="Hot dog carne">
+              <img src="Img/Carne.jpg" alt="Hot dog carne" />
             </div>
             <div class="carousel-item">
-              <img src="Img/BBQ.jpg" alt="Hot dog Barbiquie">
+              <img src="Img/BBQ.jpg" alt="Hot dog Barbiquie" />
             </div>
             <div class="carousel-item">
-              <img src="Img/Coreano.jpg" alt="Hot dog coreano">
+              <img src="Img/Coreano.jpg" alt="Hot dog coreano" />
             </div>
           </div>
         </div>
       </section>
-      
+
       <section id="productos">
         <h2>Productos</h2>
         <div class="productos">
           <div class="row">
             <div class="col">
-              <img src="Img/Clasico.jpg" alt="Hot dog">
+              <img src="Img/Clasico.jpg" alt="Hot dog" />
               <div>
                 <h3>Hot dog Clásico</h3>
                 <p>El hot dog tradicional...</p>
               </div>
             </div>
             <div class="col">
-              <img src="Img/Carne.jpg" alt="Hot dog">
+              <img src="Img/Carne.jpg" alt="Hot dog" />
               <div>
                 <h3>Hot dog Carne</h3>
                 <p>Con trozos de carne desmenuzada...</p>
               </div>
             </div>
             <div class="col">
-              <img src="Img/Lechugona.jpg" alt="Hot dog">
+              <img src="Img/Lechugona.jpg" alt="Hot dog" />
               <div>
                 <h3>Hot dog Lechugona</h3>
                 <p>Hot dog estilo vegetariano...</p>
               </div>
             </div>
             <div class="col">
-              <img src="Img/BBQ.jpg" alt="Hot dog">
+              <img src="Img/BBQ.jpg" alt="Hot dog" />
               <div>
                 <h3>Hot dog BBQ</h3>
                 <p>Echo con una rica salsa BBQ...</p>
               </div>
             </div>
             <div class="col">
-              <img src="Img/Coreano.jpg" alt="Hot dog">
+              <img src="Img/Coreano.jpg" alt="Hot dog" />
               <div>
                 <h3>Hot dog Coreano</h3>
                 <p>Ensartado en un palo de brocheta...</p>
@@ -108,18 +117,28 @@
           </div>
         </div>
       </section>
-      
+
       <section id="compras">
         <div class="compras__principal">
           <h2>Compras</h2>
           <form>
             <div class="form-group">
               <label for="exampleFormControlInput1">Nombre del Producto</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ej: Hot dog">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Ej: Hot dog"
+              />
             </div>
             <div class="form-group">
               <label for="exampleFormControlInput1">Descripción</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ej: Con Cebolla frita, sin mostaza...">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Ej: Con Cebolla frita, sin mostaza..."
+              />
             </div>
             <div class="form-group">
               <label for="exampleFormControlInput1">Categoría</label>
@@ -155,19 +174,30 @@
           </div>
         </aside>
       </section>
-      
+
       <section id="contactos">
         <h2>Contactanos</h2>
         <div class="redes">
           <p>A sus servicios en nuestras diferentes redes</p>
           <div class="logosRedes">
-            <img src="node_modules/bootstrap-icons/icons/facebook.svg" alt="Logo facebook">
-            <img src="node_modules/bootstrap-icons/icons/whatsapp.svg" alt="Logo whatsApp">
-            <img src="node_modules/bootstrap-icons/icons/instagram.svg" alt="Logo instagram">
-            <img src="node_modules/bootstrap-icons/icons/twitter.svg" alt="Logo twitter">
+            <img
+              src="node_modules/bootstrap-icons/icons/facebook.svg"
+              alt="Logo facebook"
+            />
+            <img
+              src="node_modules/bootstrap-icons/icons/whatsapp.svg"
+              alt="Logo whatsApp"
+            />
+            <img
+              src="node_modules/bootstrap-icons/icons/instagram.svg"
+              alt="Logo instagram"
+            />
+            <img
+              src="node_modules/bootstrap-icons/icons/twitter.svg"
+              alt="Logo twitter"
+            />
           </div>
         </div>
-
       </section>
     </main>
 
