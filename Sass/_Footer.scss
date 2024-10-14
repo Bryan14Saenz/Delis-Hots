@@ -1,0 +1,21 @@
+footer{
+  @include alineación();
+  flex-direction: column;
+  background-color: #343440;
+  color: #fff;
+  border-radius: 10px 10px 0px 0px;
+
+  p{
+    font-size: 1rem;
+    margin: 2px;
+  }
+}
+
+// Media Queries
+@media (min-width: 800px) {
+  footer{
+    p{
+      font-size: 2rem;
+    }
+  }
+}
